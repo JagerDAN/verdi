@@ -1,0 +1,13 @@
+.main-page {
+    padding-top: 202px;
+}
+
+.main-page > p {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0.01em;
+    border-left: 7px solid #FFE600;
+    padding: 8px 0 8px 25px;
+}

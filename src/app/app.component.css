@@ -1,0 +1,13 @@
+.wrapper {
+    background-image: url("src/assets/images/main-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}

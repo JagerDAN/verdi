@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 85px;
+}
+
+.footer > span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #FFE600;
+}
+
+.footer > .media {
+    display: flex;
+    align-items: center;
+}
+
+.footer > .media > img:not(:last-child) {
+    margin-right: 30px;
+}

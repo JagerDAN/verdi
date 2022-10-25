@@ -1,0 +1,63 @@
+.header-wrapper {
+    padding: 72px 100px 57px 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-container > .title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header-container > .title > img {
+    width: 64px;
+    height: 75px;
+    margin-right: 33px;
+}
+
+.header-container > .tabs {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header-container > .tabs > .tab:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-container > .tabs > .tab {
+    cursor: pointer;
+    transition: color .8s ease;
+}
+
+.header-container > .tabs > .tab.active {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFE600;
+}
+
+.header-container > .tabs > .tab.active:after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 0;
+    border: 2px solid #FFE600;
+    bottom: -12px;
+}
+
+.header-container > .tabs > .tab:hover {
+    color: #FFE600;
+}

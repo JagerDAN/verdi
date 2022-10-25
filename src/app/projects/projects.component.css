@@ -1,0 +1,15 @@
+.categories {
+    display: flex;
+}
+
+.categories > .hr {
+    width: available;
+}
+
+.categories > hr {
+    margin: 0;
+}
+
+.categories > span {
+    margin: 0;
+}
