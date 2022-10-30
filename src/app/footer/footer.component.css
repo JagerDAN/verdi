@@ -22,3 +22,9 @@
 .footer > .media > img:not(:last-child) {
     margin-right: 30px;
 }
+
+.hr-container > .hr {
+    width: 73px;
+    height: calc(50% - 1.5px);
+    border-bottom: 5px solid white;
+}

@@ -1,7 +1,4 @@
 .wrapper {
-    background-image: url("src/assets/images/main-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100vw;
     min-height: 100vh;
     display: flex;
@@ -10,4 +7,14 @@
 
 .content {
     flex: 1;
+}
+
+.main {
+    background-image: url("src/assets/images/main-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.not-main {
+    background-color: #111111;
 }

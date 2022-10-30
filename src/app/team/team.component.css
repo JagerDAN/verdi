@@ -1,0 +1,13 @@
+.teams-container {
+    display: flex;
+}
+
+.teams-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+}

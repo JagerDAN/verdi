@@ -1,7 +1,10 @@
 <div class="footer page-content">
-    <span>
+    <span *ngIf="isMain">
         Посмотреть шоурил
     </span>
+    <div class="hr-container" *ngIf="!isMain">
+        <div class="hr"></div>
+    </div>
     <div class="media">
         <img src="assets/images/Vimeo.svg" alt="">
         <img src="assets/images/YouTube.svg" alt="">

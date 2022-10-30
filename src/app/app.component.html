@@ -1,7 +1,7 @@
-<div class="wrapper druk-wide" [ngClass]="{'main': isMain}">
+<div class="wrapper druk-wide" [ngClass]="{'main': isMain, 'not-main': !isMain}">
     <app-header></app-header>
     <div class="content">
         <router-outlet></router-outlet>
     </div>
-    <app-footer></app-footer>
+    <app-footer [isMain]="isMain"></app-footer>
 </div>

@@ -10,11 +10,13 @@ import {filter} from "rxjs";
 export class AppComponent {
   title = 'my-app';
   isMain: any;
+  currentRoute: any;
 
   constructor(private router: Router) {
     router.events.pipe(filter(event => event instanceof NavigationStart))
         .subscribe((event) => {
-          // console.log(event.url)
+          this.currentRoute =  event;
+          this.isMain = !(this.currentRoute.url === '/projects' || this.currentRoute.url === '/team' || this.currentRoute.url === '/contacts');
         });
   }
 }
