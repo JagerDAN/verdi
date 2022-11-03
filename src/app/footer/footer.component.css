@@ -23,8 +23,8 @@
     margin-right: 30px;
 }
 
-.hr-container > .hr {
+.footer > .hr-container > .hr {
     width: 73px;
-    height: calc(50% - 1.5px);
+    height: calc(50% - 2.5px);
     border-bottom: 5px solid white;
 }

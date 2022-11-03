@@ -1,13 +1,43 @@
 .teams-container {
     display: flex;
+    padding-top: 78px;
 }
 
 .teams-group {
     display: flex;
     flex-direction: column;
+    margin-right: 170px;
 }
 
 .team {
     display: flex;
     flex-direction: column;
+}
+
+.team > .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFE600;
+    margin-bottom: 12px;
+}
+
+.team > .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+.team > .name:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.team > .name:last-child {
+    margin-bottom: 66px;
 }

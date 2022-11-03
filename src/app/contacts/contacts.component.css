@@ -1,0 +1,9 @@
+.contacts-container {
+    padding-top: 296px;
+}
+
+.contacts-container > .hr-container > .hr {
+    width: 73px;
+    height: calc(50% - 2.5px);
+    border-bottom: 5px solid white;
+}
